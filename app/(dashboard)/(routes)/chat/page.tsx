@@ -22,7 +22,7 @@ import { useProModal } from "@/hooks/use-pro-modal";
 import { useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "react-hot-toast";
-
+import { useChat } from 'ai/react';
 const ChatbotPage = () => {
     const router = useRouter();
     const proModal = useProModal();

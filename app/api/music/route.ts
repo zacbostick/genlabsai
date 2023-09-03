@@ -31,7 +31,7 @@ export async function POST(
             {
               input: {
                 prompt: prompt,
-                duration: 30,
+                duration: 20,
 
               }
             }
